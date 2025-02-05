@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-// Function to calculate factorial
+
 long long factorial(int n) {
     if (n < 0) {
-        return -1; // Factorial is not defined for negative numbers
+        return -1; 
     } else if (n == 0) {
         return 1;
     } else {
